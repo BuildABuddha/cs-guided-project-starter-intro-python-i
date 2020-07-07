@@ -33,3 +33,6 @@ YOU DO
 # capitalized in the new list.
 
 names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy", "shawn"]
+
+new_names = [name.title() for name in names if name.lower().startswith('s')]
+print(new_names)

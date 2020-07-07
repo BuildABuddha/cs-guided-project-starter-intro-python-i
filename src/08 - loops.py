@@ -59,3 +59,9 @@ numbers = [
     958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470,
     743, 527
 ]
+
+for number in numbers:
+    if number % 2 == 1:
+        print(number)
+    elif number == 412:
+        break

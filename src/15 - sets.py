@@ -50,3 +50,7 @@ YOU DO
 
 my_party = ["Andy", "Bill", "Charles", "Doug", "Elliot", "Frank", "Gary", "Hank"]
 my_friends_party = ["Adam", "Bill", "Charles", "Dirk", "Elliot", "Fredrick", "Gus", "Henry"]
+
+print(
+    set(my_party).difference(set(my_friends_party)) 
+    )

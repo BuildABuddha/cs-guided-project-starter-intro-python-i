@@ -53,10 +53,11 @@ YOU DO
 """
 # Modify the supplied code so that all of the statements evaluate to True
 # change this code
-number = 10
-second_number = 10
-first_array = []
-second_array = [1,2,3]
+print("These should all return true:")
+number = 16
+second_number = 0
+first_array = [1,2,3]
+second_array = [1,2]
 
 print(bool(number > 15))
 
